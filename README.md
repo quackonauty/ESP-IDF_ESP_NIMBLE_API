@@ -22,7 +22,7 @@ Component that simplifies NimBLE peripheral implementation with:
    **Terminal command:**
 
    ```bash
-   idf.py add-dependency --git https://github.com/<yourusername>/esp-nimble-api-component.git --git-ref main
+   idf.py add-dependency --git https://github.com/quackonauty/esp-nimble-api-component.git --git-ref main
    ```
 
    Or in idf_component.yml:
@@ -30,7 +30,7 @@ Component that simplifies NimBLE peripheral implementation with:
    ```yml
    dependencies:
    <yourgithub>/esp-nimble-api:
-      git: https://github.com/<yourusername>/esp-nimble-api-component.git
+      git: https://github.com/quackonauty/esp-nimble-api-component.git
       version: main
    ```
 
